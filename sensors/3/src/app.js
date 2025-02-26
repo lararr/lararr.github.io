@@ -61,9 +61,9 @@ async function getAccel() {
         contentBeta.innerHTML = frontToBack_degrees;
         contentGamma.innerHTML = leftToRight_degrees;
 
-        value.innerHTML = `${py} > ${window.innerHeight / 2}`;
+        value.innerHTML = `${py} > ${window.innerHeight / 4}`;
         
-        image.style.width = `${py / 2}%`;
+        image.style.width = `${py / 4}%`;
 
       });
     }
